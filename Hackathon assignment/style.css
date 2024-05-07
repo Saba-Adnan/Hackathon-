@@ -1,0 +1,128 @@
+/* Add a black background color to the top navigation */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33333300;
+    font-family: sans-serif;
+  }
+  
+  ul.topnav li {float: right;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #11111100;}
+  
+  /*ul.topnav li a.active*/
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+  body {
+    background-image: url("mountains-morning-snow-rock-mountain-landscape.png");
+   background-size: cover;
+    background-repeat: no-repeat;
+     background-size: auto;
+     margin-left: 20px;
+   }
+   .img{
+    margin-left: 5px;
+    margin-top: 5px;
+   }
+   @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+.main {
+    position: absolute;
+    top: 50%; /* Position at the vertical center */
+    left: 50%; /* Position at the horizontal center */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    width: 80%; /* Adjust the width as needed */
+    text-align: center;
+    color: white;
+    font-size: 50px; /* Adjust the font size as needed */
+    line-height: 1.2; /* Adjust the line height as needed */
+}
+.additional{
+position: absolute;
+        top: 65%; 
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        width: 80%; 
+        text-align: center;
+        
+        color: white;
+        font-size: 20px; 
+        font-weight:100;
+}
+.btn{
+    position: absolute;
+    top: 80%; 
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    text-align: center;
+    color: white;
+    font-size: 20px; 
+    font-weight:100;
+
+}
+.buttonb {
+    background-color: #e8f5f0da; 
+    border: none;
+    color: rgb(22, 21, 21);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 33pc;
+  }
+  .buttona{
+    background-color: #04aa6d00; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    
+    /* Adjust positions for smaller screens */
+    .text {
+        margin-top: 120px;
+        top: 30%;
+        font-size: 30px;
+    }
+
+    .msg {
+        margin-top: 80px;
+        top: 50%;
+        font-size: 16px;
+    }
+
+    .btn {
+        margin-top: 55px;
+        top: 70%;
+        font-size: 16px;
+    }
+}
